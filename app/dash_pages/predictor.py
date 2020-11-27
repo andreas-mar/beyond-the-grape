@@ -60,7 +60,7 @@ def init_regression(server):
         external_scripts=[dbc.themes.BOOTSTRAP, 'styles.css']
     )
 
-    pipeline = load("app/static/models/xbg_wine_model_internal.joblib")
+    pipeline = load("app/static/models/xbg_wine_model.joblib")
 
     foods = dbc.FormGroup(
         [
@@ -100,7 +100,7 @@ def init_regression(server):
 
     # ---------------------------------------------------- Mapping ----------------------------------------------------
 
-    predictor_app.layout = html.Section([html.H1('Wine buddy predictor', style={'margin': '2%', 'color': 'green', 'text-align': 'center'}),
+    predictor_app.layout = html.Section([html.H1('Beyond The Grape predictor', style={'margin': '2%', 'color': 'green', 'text-align': 'center'}),
                                          html.Div([
 
                                              # ---------------------------------------------------- Section 1 ----------------------------------------------------
