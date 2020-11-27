@@ -60,7 +60,7 @@ def init_regression(server):
         external_scripts=[dbc.themes.BOOTSTRAP, 'styles.css']
     )
 
-    pipeline = load("app/static/models/xbg_wine_model.joblib")
+    pipeline = load("app/static/models/xbg_wine_model_internal.joblib")
 
     foods = dbc.FormGroup(
         [
