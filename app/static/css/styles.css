@@ -48,6 +48,12 @@
   box-sizing: border-box;
 }
 
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -68,6 +74,10 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  background-image: url(url!d);
+  background-position: center;
+  background-repeat: no-repeat;
+  height : 100%;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
