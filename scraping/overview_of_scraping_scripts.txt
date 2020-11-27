@@ -1,0 +1,13 @@
+GETTING THE DATA:
+scrape_all_pages.py generates a full list of all vintage ID used in the preliminary dataset, along with vintage specific data.
+get_wine_data.py get wine metadata, which is mapped to each vintage.
+get_wine_type.py is run separetly to get the type of wine for each wine (red/white/sparkling/etc.)
+scrape_prices.py get the price of each vintage.
+The four scripts use a combination of requests and selenium to scrape vivino. requests is preferred due to speed, although it is not always possible to do.
+
+MERGES:
+The four datasets are merged into on master through the concat_vivino.py script
+utils.py contains helper functions used through the scraping process. Often the problem is the output format, which need to be standardized to either JSON or a pandas dataframe.
+
+OUTPUT:
+The final output is two .csv files, one with all vintages and their associated reviews, and one with reviews and associated metadata. 
