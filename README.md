@@ -22,6 +22,6 @@ Natural Language Processing:
 https://colab.research.google.com/drive/1XpE4Kqe9xo1lFELULC32-3yuh8N6zo6a?usp=sharing
 
 ## App
-This is the foldering containing the source code for our companion website www.dsba-vinoveritas.com, which is a flask-served webapp. The website contains a live-updating version of the final XGBoost regression model in .joblib format, deployed online.
+This is the foldering containing the source code for our companion website https://cbs-bdp-vivino.herokuapp.com/, which is a flask-served webapp. The website contains a live-updating version of the final XGBoost regression model in .joblib format, deployed online.
 
 
